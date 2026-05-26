@@ -86,6 +86,6 @@ print("R2 Score:", score)
 # -----------------------------
 pickle.dump(model, open("model.pkl", "wb"))
 pickle.dump(scaler_X, open("scaler_X.pkl", "wb"))
-pickle.dump(scaler_y, open("scaler_y.pkl", "wb"))
+pickle.dump(scaler_y, open("scaler_Y.pkl", "wb"))
 
 print("Model saved successfully!")
